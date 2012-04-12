@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="Data Aggregator DSL Impl">
+  <implementation class="arch.dataaggregatordsl.DSLDataAggregator"/>
+  <reference name="dsl"
+    interface="arch.dsl.DSLInterface"
+    bind="setDSLInterface"
+    unbind="unsetDSLInterface"
+    cardinality="1..1"
+    policy="static"/>
+  <service>
+     <provide interface="arch.dataaggregatorinterface.IDataAggregator"/>
+  </service>
+</scr:component>

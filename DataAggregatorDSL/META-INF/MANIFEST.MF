@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: DataAggregatorDSL
+Bundle-SymbolicName: DataAggregatorDSL
+Bundle-Version: 1.0.0.qualifier
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Service-Component: OSGI-INF/aggregator-description.xml
+Export-Package: arch.dataaggregatordsl
+Import-Package: arch.dataaggregatorinterface,
+ arch.datasourceinterface,
+ arch.dsl,
+ groovy.lang;version="1.8.1",
+ groovy.util;version="1.8.1",
+ org.osgi.framework;version="1.3.0"

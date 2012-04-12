@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="PropertyBag">
+  <implementation class="arch.property.impl.PropertyBagImpl"/>
+  <service>
+     <provide interface="arch.property.PropertyBag"/>
+  </service>
+</scr:component>

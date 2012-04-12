@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="Data Aggregate Update Site" url="http://localhost:1234">
+      Contains all features to aggregate data
+   </description>
+   <feature url="features/AggregateCore_1.0.0.201110091000.jar" id="AggregateCore" version="1.0.0.201110091000">
+      <category name="Core"/>
+   </feature>
+   <feature url="features/Display_1.0.0.201110091000.jar" id="Display" version="1.0.0.201110091000">
+      <category name="Output"/>
+   </feature>
+   <feature url="features/DSL_1.0.0.201110091000.jar" id="DSL" version="1.0.0.201110091000">
+      <category name="Aggregators"/>
+   </feature>
+   <feature url="features/Property_1.0.0.201110091000.jar" id="Property" version="1.0.0.201110091000">
+      <category name="Aggregators"/>
+   </feature>
+   <feature url="features/REST_1.0.0.201110091000.jar" id="REST" version="1.0.0.201110091000">
+      <category name="Output"/>
+   </feature>
+   <category-def name="Core" label="Core">
+      <description>
+         Contains the core functionality
+      </description>
+   </category-def>
+   <category-def name="Aggregators" label="Aggregators">
+      <description>
+         Contains additional aggregation functions
+      </description>
+   </category-def>
+   <category-def name="Output" label="Output handlers"/>
+</site>
